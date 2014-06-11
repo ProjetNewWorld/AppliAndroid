@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Arranger les rayons dans le magasin -->
+      <item android:id="@+id/action_logout"
+          android:icon="@drawable/logout"
+          android:title="Logout" 
+           android:showAsAction="always" android:menuCategory="secondary" android:titleCondensed="Logout"/>
+    <!-- Elaborer la liste de course -->
+    <item android:id="@+id/action_liste"
+        android:icon="@drawable/liste"
+          android:title="@string/action_liste"
+          android:showAsAction="always" android:menuCategory="secondary" android:titleCondensed="Liste"/>
+    <item android:id="@+id/action_courses"
+         android:icon="@drawable/caddy" 
+         android:title="@string/action_courses" 
+         android:showAsAction="always" android:menuCategory="secondary" android:titleCondensed="Courses"/>          
+    <!-- Faire les courses -->
+    </menu>
+    
